@@ -22,6 +22,8 @@ function resetColumn1 () {
 	f.classList.add("hidebox")
 	a.classList.toggle("pulse1");
 	a.classList.add("cursor");
+	e.classList.remove("r6info")
+	
 }
 
 function resetColumn2 () {
@@ -29,13 +31,15 @@ function resetColumn2 () {
 	h.classList.add("hidebox")
 	b.classList.toggle("pulse1");
 	b.classList.add("cursor");
+	g.classList.remove("rlinfo")
 }
 
 function resetColumn3 () {
 	i.classList.add("hidebox")
 	j.classList.add("hidebox")
 	c.classList.toggle("pulse1");
-	c.classList.add("cursor");	
+	c.classList.add("cursor");
+	i.classList.remove("fortinfo")	
 }
 
 
